@@ -110,3 +110,23 @@
   background-color: rgb(241, 239, 240);
   cursor: pointer;
 }
+
+footer{
+  margin: 0 80px 16px 80px; 
+  display: flex; 
+  justify-content: space-between;
+}
+
+footer div img{
+  opacity: 75%;
+  padding: 0px 8px;
+  margin-top:-1.2px;
+}
+
+.footer-content a{
+  color: #55575a;
+  font-size: 11px;
+  font-family: 'Open sans', sans-serif;
+  padding: 0px 16px;
+  text-decoration: none;
+}
