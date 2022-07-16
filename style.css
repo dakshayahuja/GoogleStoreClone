@@ -1,0 +1,22 @@
+.nav-bar{
+  display: flex;
+  font-weight: 100;
+  font-size: 13.5px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.nav-bar a{
+  text-decoration: none;
+  padding: 1.11em 0.8em 1em 0.7em;
+  color:#55575a;
+}
+
+.nav-bar a:visited{
+  color:inherit;
+}
+
+.nav-bar a:hover{
+  color: #1967d2;
+}
+
+
