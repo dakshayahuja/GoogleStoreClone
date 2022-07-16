@@ -75,3 +75,38 @@
   color: #3d4043;
   margin-top: 78px;
 }
+
+.items{
+  display: flex;
+  margin: 100px;
+  color: #3d4043;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.items div div{
+  background-color: rgb(248, 249, 250);
+  border-radius: 10%;
+  height: max-content;
+  width: max-content;
+}
+
+.items h4{
+  font-size: 19px;
+  line-height: 24px;
+  font-weight: 700;
+  margin-bottom: -2px;
+}
+
+.items p{
+  line-height: 24px;
+  letter-spacing: .2px;
+}
+
+.items div{
+  margin-right: 40px;
+}
+
+.items div div:hover{
+  background-color: rgb(241, 239, 240);
+  cursor: pointer;
+}
