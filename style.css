@@ -1,40 +1,40 @@
-.nav-bar{
+.nav-bar {
   display: flex;
   font-weight: 100;
   font-size: 13.5px;
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 
-.nav-bar a{
+.nav-bar a {
   text-decoration: none;
   padding: 1.08em 0.8em 1em 0.7em;
-  color:#55575a;
+  color: #55575a;
 }
 
-.nav-bar a:visited{
-  color:inherit;
+.nav-bar a:visited {
+  color: inherit;
 }
 
-.nav-bar a:hover{
+.nav-bar a:hover {
   color: #1967d2;
 }
 
-#header{
+#header {
   display: flex;
   background-color: #e3ffe6;
   height: 575px;
   margin: 0em 1em;
 }
 
-#header-text{
-  font-family: 'Open Sans', sans-serif;
-  color:#55575a;
+#header-text {
+  font-family: "Open Sans", sans-serif;
+  color: #55575a;
   padding: 7.2em 3em 4em 7.3em;
   max-width: 600px;
 }
 
-#header-text h1{
-  font-family: 'Albert Sans', sans-serif;
+#header-text h1 {
+  font-family: "Albert Sans", sans-serif;
   font-size: 58px;
   color: #3d4043;
   margin-top: 0;
@@ -42,18 +42,18 @@
   letter-spacing: -2;
 }
 
-#header-text h5{
-  margin-bottom: 0.7em; 
-  font-weight:400; 
-  font-size:15.5px;
+#header-text h5 {
+  margin-bottom: 0.7em;
+  font-weight: 400;
+  font-size: 15.5px;
   line-height: 1.5;
 }
 
-#header-text button{
+#header-text button {
   font-size: 16px;
   font-weight: 500;
-  color:#3d4043 ;
-  font-family: 'Albert Sans', sans-serif;
+  color: #3d4043;
+  font-family: "Albert Sans", sans-serif;
   border-color: #3d4043;
   border-radius: 4px;
   line-height: 24px;
@@ -63,70 +63,70 @@
   cursor: pointer;
 }
 
-#header-text button:hover{
+#header-text button:hover {
   background-color: #3d4043;
   color: white;
 }
 
-#d1{
-  font-family: 'Albert Sans', sans-serif;
+#d1 {
+  font-family: "Albert Sans", sans-serif;
   font-size: 20px;
   text-align: center;
   color: #3d4043;
   margin-top: 78px;
 }
 
-.items{
+.items {
   display: flex;
   margin: 100px;
   color: #3d4043;
-  font-family: 'Albert Sans', sans-serif;
+  font-family: "Albert Sans", sans-serif;
 }
 
-.items div div{
+.items div div {
   background-color: rgb(248, 249, 250);
   border-radius: 10%;
   height: max-content;
   width: max-content;
 }
 
-.items h4{
+.items h4 {
   font-size: 19px;
   line-height: 24px;
   font-weight: 700;
   margin-bottom: -2px;
 }
 
-.items p{
+.items p {
   line-height: 24px;
-  letter-spacing: .2px;
+  letter-spacing: 0.2px;
 }
 
-.items div{
+.items div {
   margin-right: 40px;
 }
 
-.items div div:hover{
+.items div div:hover {
   background-color: rgb(241, 239, 240);
   cursor: pointer;
 }
 
-footer{
-  margin: 0 80px 16px 80px; 
-  display: flex; 
+footer {
+  margin: 0 80px 16px 80px;
+  display: flex;
   justify-content: space-between;
 }
 
-footer div img{
+footer div img {
   opacity: 75%;
   padding: 0px 8px;
-  margin-top:-1.2px;
+  margin-top: -1.2px;
 }
 
-.footer-content a{
+.footer-content a {
   color: #55575a;
   font-size: 11px;
-  font-family: 'Open sans', sans-serif;
+  font-family: "Open sans", sans-serif;
   padding: 0px 16px;
   text-decoration: none;
 }
