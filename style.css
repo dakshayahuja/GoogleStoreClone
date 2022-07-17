@@ -320,3 +320,51 @@ input[type=submit]:hover {
 .sub-package a:hover{
   background-color:hsl(215, 77%, 55%,0.05);
 }
+
+
+input[type="text"],
+input[type="password"],
+input[type="email"]{
+  background: rgba(255,255,255,0.1);
+  border: none;
+  font-size: 16px;
+  display: inline;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #3d4043;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #FFF;
+  background-color: #4bc970;
+  font-size: 18px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 5px;
+  width: 180px;
+  border: 1px solid #3ac162;
+  border-width: 1px 1px 3px;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+
+fieldset {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  border: none;
+  max-width: 350px;
+  font-family: 'Albert Sans', sans-serif;
+
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+}
+
