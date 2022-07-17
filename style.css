@@ -49,7 +49,7 @@
   line-height: 1.5;
 }
 
-#header-text button {
+.b1 {
   font-size: 16px;
   font-weight: 500;
   color: #3d4043;
@@ -63,7 +63,7 @@
   cursor: pointer;
 }
 
-#header-text button:hover {
+.b1:hover {
   background-color: #3d4043;
   color: white;
 }
@@ -78,7 +78,8 @@
 
 .items {
   display: flex;
-  margin: 100px;
+  align-items: baseline;
+  margin: 100px 100px 60px 100px;
   color: #3d4043;
   font-family: "Albert Sans", sans-serif;
 }
@@ -111,6 +112,11 @@
   cursor: pointer;
 }
 
+hr{
+  opacity:20%; 
+  margin: 10px 90px;
+}
+
 footer {
   margin: 0 80px 16px 80px;
   display: flex;
@@ -129,4 +135,66 @@ footer div img {
   font-family: "Open sans", sans-serif;
   padding: 0px 16px;
   text-decoration: none;
+}
+
+.big-banner{
+  position: relative;
+}
+
+.big-banner div{
+  font-family: "Albert-Sans", sans-serif;
+  color: #3d4043;
+  font-size: 38px;
+  font-weight: 600;
+}
+
+.big-banner img{
+  border-radius: 25px;
+  margin: 0px 0px 30px 16px;
+}
+
+#banner1{
+  line-height: 48px;
+  position: absolute;
+  left: 134px;
+  top: 227px;
+}
+
+#banner2{
+  position: absolute;
+  line-height: 38px;
+  top: 234px;
+  right: 286px;
+}
+
+.disclaimer{
+  font-family: 'Albert-Sans', sans-serif;
+  font-size: 10px;
+  color: #55575ad9;
+  margin: 0px 150px;
+  padding-bottom: 10px;
+}
+
+.items2{
+  display: flex;
+  justify-content: center;
+  color: #3d4043;
+  font-family: "Albert Sans", sans-serif;
+}
+
+.items2 div div img{
+  border-radius: 10%;
+  margin: 23px;
+}
+
+.items2 h4{
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 500;
+  color: #1967d2;
+  margin: -5px 125px 100px ;
+}
+
+.items2 div div:hover{
+  cursor: pointer;
 }
