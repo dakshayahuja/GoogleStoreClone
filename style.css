@@ -276,3 +276,47 @@ input[type=submit]:hover {
   padding: 0px 25px 25px;
   margin: 40px 240px 60px;
 }
+
+.items3 div div{
+  border-radius: 5px;
+}
+
+.items3 div div img{
+  padding: 50px;
+}
+
+.b2{
+  color: #1967d2;
+  border-color: #1967d2;
+}
+
+.b2:hover{
+  background-color: #1967d2;
+  color: white;
+}
+
+.sub-package{
+  padding: 20px;
+  font-family: 'Albert Sans', sans-serif;
+}
+
+.sub-package h4{
+  color: #3d4043;
+}
+
+.sub-package p{
+  display: flex;
+  font-size: 15px;
+  color: #55575a;
+  margin: -10px 0px 20px;
+}
+
+.sub-package a{
+  color: #1967d2;
+  font-size: 15px;  
+  padding: 10px;
+}
+
+.sub-package a:hover{
+  background-color:hsl(215, 77%, 55%,0.05);
+}
