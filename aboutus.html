@@ -6,7 +6,9 @@
     <link rel="shortcut icon" href="src/favicon.png" type="image/x-icon" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap" rel="stylesheet">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Albert+Sans:wght@400;500;600;700&family=Open+Sans:wght@400;500;700&family=Roboto&display=swap"
+      rel="stylesheet">
   </head>
 
   <body>
@@ -27,6 +29,70 @@
             width="30px"></a>
       </div>
 
+    </div>
+
+    <div id="about-us">
+    <p>Our mission is to 
+      <span style="color: #4285f4">organise</span> the <br> world’s 
+      <span style="color: #ea4335">information</span> and make it <br>
+      <span style="color: #34a853">universally accessible</span> and 
+      <span style="color: #f9ab00">useful</span>.
+    </p>
+    </div>
+
+    <div id="d1">
+      <h1>Got some feedback for us?</h1>
+      <a href="#feedback" style="font-size: 18px;"><button class="b1" style="margin-top:-15px;margin-bottom:20px">Please fill this form.</button></a>
+    </div>
+
+    <div class="about-us1">
+      <a href="subpages/phones.html">
+      <img src="src/aboutUs1.jpeg" width="100%" style="border-radius: 6px;">
+      <div>
+        <p style="color: #414141;">OUR PRODUCTS</p>
+        <p style="color: #414141; font-size:25;">Hi, how can we help?</p>
+        <p style="color: #1a73e8;">See what we build</p></a>
+      </div>
+    </div>
+
+    <div class="about-us1">
+      <a href="https://about.google/commitments/" target="_blank">
+      <img src="src/aboutUs2.jpeg" width="100%" style="border-radius: 6px;">
+      <div>
+        <p>OUR COMMITMENTS</p>
+        <p style="font-size: 25px;">Dedicated to improving<br>people's lives. As true<br>as it was at <br>the start.</p>
+        <p>How we contribute</p></a>
+      </div>
+    </div>
+
+    <div class="about-us1" >
+      <a href="https://about.google/stories/", target="_blank">
+      <img src="src/aboutUs3.jpeg" width="100%" style="border-radius: 6px;">
+      <div style="position: absolute; top:260px; left:113px">
+        <p>OUR STORIES</p>
+        <p style="font-size: 25px;">The best part about <br> technology is seeing what <br> the world does with it</p>
+        <p>Explore our stories</p></a>
+      </div>
+    </div>
+
+    <div id="feedback">
+      <div id="d1"><h2 style="padding-top: 35px;">Feedback Form</h2></div>
+      <form>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="firstname" placeholder="Enter your first name">
+
+        <label for="lname">Last Name</label>
+        <input type="text" id="lname" name="lastname" placeholder="Enter your last name">
+
+        <label for="email">Email</label>
+        <input type="text" id="mail" name="mail" placeholder="Enter your email id">
+
+        <label for="subject">Subject</label>
+        <textarea id="subject" name="subject" placeholder="Please enter your feedback here" style="height:240px"></textarea>
+
+        <center><input type="submit" value="Submit" onclick="alert('Thank You!!\nYour feedback has been submitted!!')"></center>
+
+      </form>
     </div>
 
     <hr>

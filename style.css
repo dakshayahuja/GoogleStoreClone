@@ -11,7 +11,11 @@
   color: #55575a;
 }
 
-.nav-bar a:visited {
+a{
+  text-decoration: none;
+}
+
+a:visited {
   color: inherit;
 }
 
@@ -210,3 +214,65 @@ footer div img {
   font-weight: 600;
 }
 
+#about-us{
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  font-size: 45px;
+  font-weight: 400; 
+  margin: 150px 0 100px;
+}
+
+.about-us1{
+  position: relative;
+  width: 1300px;
+  margin-left: 4em;
+  margin-bottom: 4.5em;
+  padding-top: 1em;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.about-us1 div{
+  position: absolute;
+  top: 240px;
+  left: 100px;
+  line-height: 2.062rem;
+  cursor: pointer;
+}
+
+.about-us1 p{
+  color: white;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  
+}
+
+input[type=submit] {
+  background-color:#7854c7;
+  color: white;
+  font-size: 16px;
+  padding: 14px 40px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color:  #6640b9;
+  border: 1px solid #ccc;
+}
+
+#feedback{
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 0px 25px 25px;
+  margin: 40px 240px 60px;
+}
