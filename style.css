@@ -192,9 +192,21 @@ footer div img {
   line-height: 24px;
   font-weight: 500;
   color: #1967d2;
-  margin: -5px 125px 100px ;
+  margin: -5px 125px 80px ;
 }
 
 .items2 div div:hover{
   cursor: pointer;
 }
+
+.home-end{
+  background-color: #f8f9fa;
+  height: 320px;
+  margin: 0px 30px 70px;
+  font-family: 'Albert-Sans', sans-serif;
+  font-size: 30px;
+  color: #3d4043f5;
+  line-height: 35px;
+  font-weight: 600;
+}
+
