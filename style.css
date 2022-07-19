@@ -206,7 +206,7 @@ footer div img {
 .home-end{
   background-color: #f8f9fa;
   height: 320px;
-  margin: 0px 30px 70px;
+  margin: 30px 0px 70px 0px;
   font-family: 'Albert-Sans', sans-serif;
   font-size: 30px;
   color: #3d4043f5;
@@ -332,14 +332,14 @@ input[type="email"]{
   height: auto;
   margin: 0;
   outline: 0;
-  padding: 15px;
+  padding: 12px;
   width: 100%;
   background-color: #e8eeef;
   color: #3d4043;
   margin-bottom: 30px;
 }
 
-button {
+#loginbtn {
   padding: 19px 39px 18px 39px;
   color: #FFF;
   background-color: #4bc970;
@@ -349,9 +349,16 @@ button {
   border-radius: 5px;
   width: 180px;
   border: 1px solid #3ac162;
-  border-width: 1px 1px 3px;
+  border-width: 2px;
   margin-bottom: 10px;
   margin-top: -20px;
+}
+
+#loginbtn:hover{
+  color: #4bc970;
+  background-color: #e3ffe6;
+  font-weight: bold;
+  font-size:20px;
 }
 
 fieldset {
@@ -389,8 +396,7 @@ label {
   text-align: center;
 }
 
-.phone1{
-  background-color: #f6f4f3;
+.phone-banner{
   padding: 25px 70px;
   margin: 0px 18px 25px 8px;
   border-radius: 25px;
@@ -401,19 +407,80 @@ label {
   font-size: large;
 }
 
-.phone1 button{
+.half-banner button{
   margin-top: 5px;
   margin-bottom: 40px;
 }
 
-.phone1 h1{
-  font-size: 44px;
-}
-
-.phone1 h5{
+.half-banner h5{
   margin-bottom: 12px;
 }
 
-.phone2{
-  background-color: #e2eac5;
+.buds-banner{
+  padding: 25px 0px 0px 0px;
+  margin: 0px 12px 25px 12px;
+  border-radius: 25px;
+  font-family: "Albert-Sans", sans-serif;
+  color: #3d4043;
+  text-align: center;
+  font-weight: 600;
+  font-size: large;
+}
+
+.buds-banner button{
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.buds-banner h5{
+  margin-top: 0px;
+  margin-bottom: 12px;
+}
+
+.buds-features{
+  justify-content: center; 
+  margin: 40px 60px 100px 70px;
+  text-align: center;
+  font-family: 'Open Sans';
+  font-size:medium;
+}
+
+#buds-end{
+  display: flex;
+  justify-content: center;
+}
+
+#buds-end p{
+  font-size: 20px;
+  font-family: 'Albert Sans';
+}
+
+#buds-end .home-end{
+  margin: 0px 16px 100px;
+  width: 100%;
+  height: auto;
+  padding-bottom: 40px;
+}
+
+#buds-acc{
+  display: flex;
+  justify-content: center;
+  font-family: 'Open Sans';
+  color: 55575a;
+  margin: 40px 0px 100px;
+  
+}
+
+#buds-acc div{
+  display: flex;
+  flex-direction: column;
+  padding: 0px 12px;
+}
+
+#buds-acc h3{
+  margin:8px 0px;
+}
+
+#buds-acc .b1{
+  width: 140px;
 }
