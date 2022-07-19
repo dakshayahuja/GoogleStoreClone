@@ -368,3 +368,23 @@ label {
   margin-bottom: 8px;
 }
 
+.phones{
+  display: flex;
+  justify-content: center;
+  color: #3c4043;
+  font-family: 'Open Sans';
+  font-size: 14px;
+  margin: 90px 0px 40px 0px;
+}
+
+.phones div {
+  padding:0px 12px;
+}
+
+.phones div div img{
+  width: 120px;
+}
+
+.phones p{
+  text-align: center;
+}
