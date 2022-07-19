@@ -388,3 +388,32 @@ label {
 .phones p{
   text-align: center;
 }
+
+.phone1{
+  background-color: #f6f4f3;
+  padding: 25px 70px;
+  margin: 0px 18px 25px 8px;
+  border-radius: 25px;
+  font-family: "Albert-Sans", sans-serif;
+  color: #3d4043;
+  text-align: center;
+  font-weight: 600;
+  font-size: large;
+}
+
+.phone1 button{
+  margin-top: 5px;
+  margin-bottom: 40px;
+}
+
+.phone1 h1{
+  font-size: 44px;
+}
+
+.phone1 h5{
+  margin-bottom: 12px;
+}
+
+.phone2{
+  background-color: #e2eac5;
+}
