@@ -11,7 +11,7 @@
   color: #55575a;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
@@ -116,8 +116,8 @@ a:visited {
   cursor: pointer;
 }
 
-hr{
-  opacity:20%; 
+hr {
+  opacity: 20%;
   margin: 10px 90px;
 }
 
@@ -141,37 +141,37 @@ footer div img {
   text-decoration: none;
 }
 
-.big-banner{
+.big-banner {
   position: relative;
 }
 
-.big-banner div{
+.big-banner div {
   font-family: "Albert-Sans", sans-serif;
   color: #3d4043;
   font-size: 38px;
   font-weight: 600;
 }
 
-.big-banner img{
+.big-banner img {
   border-radius: 25px;
   margin: 0px 0px 30px 16px;
 }
 
-#banner1{
+#banner1 {
   line-height: 48px;
   position: absolute;
   left: 134px;
   top: 227px;
 }
 
-#banner2{
+#banner2 {
   position: absolute;
   line-height: 38px;
   top: 234px;
   right: 286px;
 }
 
-.disclaimer{
+.disclaimer {
   font-family: 'Albert-Sans', sans-serif;
   font-size: 10px;
   color: #55575ad9;
@@ -179,31 +179,31 @@ footer div img {
   padding-bottom: 10px;
 }
 
-.items2{
+.items2 {
   display: flex;
   justify-content: center;
   color: #3d4043;
   font-family: "Albert Sans", sans-serif;
 }
 
-.items2 div div img{
+.items2 div div img {
   border-radius: 10%;
   margin: 23px;
 }
 
-.items2 h4{
+.items2 h4 {
   font-size: 14px;
   line-height: 24px;
   font-weight: 500;
   color: #1967d2;
-  margin: -5px 125px 80px ;
+  margin: -5px 125px 80px;
 }
 
-.items2 div div:hover{
+.items2 div div:hover {
   cursor: pointer;
 }
 
-.home-end{
+.home-end {
   background-color: #f8f9fa;
   height: 320px;
   margin: 30px 0px 70px 0px;
@@ -214,16 +214,16 @@ footer div img {
   font-weight: 600;
 }
 
-#about-us{
+#about-us {
   text-align: center;
   font-family: 'Roboto', sans-serif;
   line-height: 1.5;
   font-size: 45px;
-  font-weight: 400; 
+  font-weight: 400;
   margin: 150px 0 100px;
 }
 
-.about-us1{
+.about-us1 {
   position: relative;
   width: 1300px;
   margin-left: 4em;
@@ -232,7 +232,7 @@ footer div img {
   font-family: 'Open Sans', sans-serif;
 }
 
-.about-us1 div{
+.about-us1 div {
   position: absolute;
   top: 240px;
   left: 100px;
@@ -240,22 +240,24 @@ footer div img {
   cursor: pointer;
 }
 
-.about-us1 p{
+.about-us1 p {
   color: white;
 }
 
-input[type=text], select, textarea {
+input[type=text],
+select,
+textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
   border-radius: 4px;
   margin-top: 6px;
   margin-bottom: 16px;
-  
+
 }
 
 input[type=submit] {
-  background-color:#7854c7;
+  background-color: #7854c7;
   color: white;
   font-size: 16px;
   padding: 14px 40px;
@@ -265,11 +267,11 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-  background-color:  #6640b9;
+  background-color: #6640b9;
   border: 1px solid #ccc;
 }
 
-#feedback{
+#feedback {
   font-family: 'Open Sans', sans-serif;
   border-radius: 5px;
   background-color: #f2f2f2;
@@ -277,55 +279,55 @@ input[type=submit]:hover {
   margin: 40px 240px 60px;
 }
 
-.items3 div div{
+.items3 div div {
   border-radius: 5px;
 }
 
-.items3 div div img{
+.items3 div div img {
   padding: 50px;
 }
 
-.b2{
+.b2 {
   color: #1967d2;
   border-color: #1967d2;
 }
 
-.b2:hover{
+.b2:hover {
   background-color: #1967d2;
   color: white;
 }
 
-.sub-package{
+.sub-package {
   padding: 20px;
   font-family: 'Albert Sans', sans-serif;
 }
 
-.sub-package h4{
+.sub-package h4 {
   color: #3d4043;
 }
 
-.sub-package p{
+.sub-package p {
   display: flex;
   font-size: 15px;
   color: #55575a;
   margin: -10px 0px 20px;
 }
 
-.sub-package a{
+.sub-package a {
   color: #1967d2;
-  font-size: 15px;  
+  font-size: 15px;
   padding: 10px;
 }
 
-.sub-package a:hover{
-  background-color:hsl(215, 77%, 55%,0.05);
+.sub-package a:hover {
+  background-color: hsl(215, 77%, 55%, 0.05);
 }
 
 
 input[type="text"],
 input[type="password"],
-input[type="email"]{
-  background: rgba(255,255,255,0.1);
+input[type="email"] {
+  background: rgba(255, 255, 255, 0.1);
   border: none;
   font-size: 16px;
   display: inline;
@@ -354,11 +356,11 @@ input[type="email"]{
   margin-top: -20px;
 }
 
-#loginbtn:hover{
+#loginbtn:hover {
   color: #4bc970;
   background-color: #e3ffe6;
   font-weight: bold;
-  font-size:20px;
+  font-size: 20px;
 }
 
 fieldset {
@@ -375,7 +377,7 @@ label {
   margin-bottom: 8px;
 }
 
-.phones{
+.phones {
   display: flex;
   justify-content: center;
   color: #3c4043;
@@ -385,18 +387,18 @@ label {
 }
 
 .phones div {
-  padding:0px 12px;
+  padding: 0px 12px;
 }
 
-.phones div div img{
+.phones div div img {
   width: 120px;
 }
 
-.phones p{
+.phones p {
   text-align: center;
 }
 
-.phone-banner{
+.phone-banner {
   padding: 25px 70px;
   margin: 0px 18px 25px 8px;
   border-radius: 25px;
@@ -407,16 +409,16 @@ label {
   font-size: large;
 }
 
-.half-banner button{
+.half-banner button {
   margin-top: 5px;
   margin-bottom: 40px;
 }
 
-.half-banner h5{
+.half-banner h5 {
   margin-bottom: 12px;
 }
 
-.buds-banner{
+.buds-banner {
   padding: 25px 0px 0px 0px;
   margin: 0px 12px 25px 12px;
   border-radius: 25px;
@@ -427,73 +429,72 @@ label {
   font-size: large;
 }
 
-.buds-banner button{
+.buds-banner button {
   margin-top: 5px;
   margin-bottom: 40px;
 }
 
-.buds-banner h5{
+.buds-banner h5 {
   margin-top: 0px;
   margin-bottom: 12px;
 }
 
-.buds-features{
-  justify-content: center; 
+.buds-features {
+  justify-content: center;
   margin: 40px 60px 100px 70px;
   text-align: center;
   font-family: 'Open Sans';
-  font-size:medium;
+  font-size: medium;
 }
 
-#buds-end{
+#buds-end {
   display: flex;
   justify-content: center;
 }
 
-#buds-end p{
+#buds-end p {
   font-size: 20px;
   font-family: 'Albert Sans';
 }
 
-#buds-end .home-end{
+#buds-end .home-end {
   margin: 0px 16px 100px;
   width: 100%;
   height: auto;
   padding-bottom: 40px;
 }
 
-#buds-acc{
+#buds-acc {
   display: flex;
   justify-content: center;
   font-family: 'Open Sans';
   color: 55575a;
   margin: 40px 0px 100px;
-  
+
 }
 
-#buds-acc div{
+#buds-acc div {
   display: flex;
   flex-direction: column;
   padding: 0px 12px;
 }
 
-#buds-acc h3{
-  margin:8px 0px;
+#buds-acc h3 {
+  margin: 8px 0px;
 }
 
-#buds-acc .b1{
+#buds-acc .b1 {
   width: 140px;
 }
 
-.watches{
+.watches {
   padding: 25px 0px 0px 0px;
-  /* margin: 0px 12px 25px 12px; */
   background-color: #f8f9fa;
   padding-top: 50px;
   margin: 0px 12px;
 }
 
-.watches-end{
+.watches-end {
   margin: 50px 16px 10px;
   width: 100%;
   height: auto;
