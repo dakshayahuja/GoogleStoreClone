@@ -83,6 +83,7 @@ a:visited {
 
 .items {
   display: flex;
+  justify-content: center;
   align-items: baseline;
   margin: 100px 100px 60px 100px;
   color: #3d4043;
@@ -109,7 +110,7 @@ a:visited {
 }
 
 .items div {
-  margin-right: 40px;
+  margin:0 1vw;
 }
 
 .items div div:hover {
@@ -300,7 +301,7 @@ input[type=submit]:hover {
 }
 
 .sub-package {
-  padding: 1.4vw;
+  padding: 20px;
   font-family: 'Albert Sans', sans-serif;
 }
 
