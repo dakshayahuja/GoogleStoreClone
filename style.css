@@ -110,7 +110,7 @@ a:visited {
 }
 
 .items div {
-  margin:0 1vw;
+  margin-right: 40px;
 }
 
 .items div div:hover {
