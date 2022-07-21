@@ -154,8 +154,9 @@ footer div img {
 }
 
 .big-banner img {
+  width: 92%;
   border-radius: 25px;
-  margin: 0px 0px 30px 16px;
+  margin: 0px 2vw 30px 4vw;
 }
 
 #banner1 {
@@ -226,8 +227,8 @@ footer div img {
 
 .about-us1 {
   position: relative;
-  width: 1300px;
-  margin-left: 4em;
+  width: 94%;
+  margin:0 3em;
   margin-bottom: 4.5em;
   padding-top: 1em;
   font-family: 'Open Sans', sans-serif;
@@ -299,7 +300,7 @@ input[type=submit]:hover {
 }
 
 .sub-package {
-  padding: 20px;
+  padding: 1.4vw;
   font-family: 'Albert Sans', sans-serif;
 }
 
